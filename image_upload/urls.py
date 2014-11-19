@@ -8,6 +8,7 @@ from image.views import ImageView
 
 urlpatterns = patterns('',
     url(r'', ImageView.as_view(), name='image'),
+    # url(r'^image/$', views.image_list),
     # Examples:
     # url(r'^$', 'image_upload.views.home', name='home'),
     # url(r'^image_upload/', include('image_upload.foo.urls')),
